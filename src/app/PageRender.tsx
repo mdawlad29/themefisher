@@ -25,7 +25,7 @@ const PageRender = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div>
-      {!isLoading ? <Loader /> : <>{children}</>}
+      {isLoading ? <Loader /> : <>{children}</>}
 
       <AppProgressBar
         height="2px"
