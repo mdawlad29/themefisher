@@ -39,35 +39,12 @@ export default function Home() {
         home
       </section>
 
-      {/* Resume Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[1000px]">
-        resume
-      </section>
-
-      {/* Skills Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
-        skill
-      </section>
-
-      {/* Portfolio Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
-        portfolio
-      </section>
-
-      {/* Blog Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
-        blog
-      </section>
-
-      {/* Pricing Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
-        pricing
-      </section>
-
-      {/* Contact Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
-        contact
-      </section>
+      {[...Array(6)]?.map((_: any, index: number) => (
+        <section
+          key={index}
+          className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[1300px]"
+        ></section>
+      ))}
     </div>
   );
 }
