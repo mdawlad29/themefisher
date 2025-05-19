@@ -35,37 +35,37 @@ export default function Home() {
       </div>
 
       {/* Home Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[1000px]">
         home
       </section>
 
       {/* Resume Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[1000px]">
         resume
       </section>
 
       {/* Skills Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
         skill
       </section>
 
       {/* Pricing Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
         pricing
       </section>
 
       {/* Portfolio Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
         portfolio
       </section>
 
       {/* Blog Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
         blog
       </section>
 
       {/* Contact Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[447px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
         contact
       </section>
     </div>

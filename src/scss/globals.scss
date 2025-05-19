@@ -24,3 +24,26 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 3px;   
+  height: 3px;   
+}
+
+/* Scrollbar Thumb (The draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #F89222;
+  border-radius: 3px;
+}
+
+/* Scrollbar Track (Background area behind thumb) */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Optional: Hover effect on scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #e07b0e; 
+}
