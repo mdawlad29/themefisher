@@ -1,5 +1,4 @@
 "use client";
-
 import { Spin } from "antd";
 
 export const Loader = ({ className = "" }: { className?: string }) => {

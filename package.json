@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "antd": "^5.25.1",
+    "framer-motion": "^12.12.1",
     "next": "15.3.2",
     "next-nprogress-bar": "^2.4.7",
     "react": "^19.0.0",

@@ -1,7 +1,7 @@
 import React from "react";
 
-const Home = () => {
-  return <div>Home</div>;
+const HeroSection = () => {
+  return <section className="mb-[120px]">HeroSection</section>;
 };
 
-export default Home;
+export default HeroSection;
