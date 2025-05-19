@@ -24,11 +24,11 @@ export default function Home() {
             lg={15}
             className="space-y-[120px] md:pr-20 px-4"
           >
-            <Portfolio />
             <Resume />
             <Skills />
-            <Pricing />
+            <Portfolio />
             <Blog />
+            <Pricing />
             <Contact />
           </Col>
         </Row>
@@ -49,23 +49,23 @@ export default function Home() {
         skill
       </section>
 
-      {/* Pricing Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
-        pricing
-      </section>
-
       {/* Portfolio Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
         portfolio
       </section>
 
       {/* Blog Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
         blog
       </section>
 
+      {/* Pricing Section */}
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
+        pricing
+      </section>
+
       {/* Contact Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1000px]">
+      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover min-h-[1800px]">
         contact
       </section>
     </div>
