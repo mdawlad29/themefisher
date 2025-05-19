@@ -18,7 +18,12 @@ export default function Home() {
         <Row>
           <Col xs={24} md={24} lg={9}></Col>
 
-          <Col xs={24} md={24} lg={15} className="space-y-[120px]">
+          <Col
+            xs={24}
+            md={24}
+            lg={15}
+            className="space-y-[120px] md:pr-20 px-4"
+          >
             <Portfolio />
             <Resume />
             <Skills />

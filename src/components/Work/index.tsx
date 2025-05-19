@@ -6,7 +6,7 @@ import { useInView, motion } from "framer-motion";
 
 const Work = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref);
+  const isInView = useInView(ref, { once: true });
 
   return (
     <div className="mb-8">
