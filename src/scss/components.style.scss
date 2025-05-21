@@ -1,0 +1,23 @@
+ .shape-one::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 0;
+   border-top: 65px solid #171B1A;
+   border-left: 59px solid transparent;
+   z-index: 10;
+ }
+
+ .shape-two::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 0;
+   height: 0;
+   border-top: 65px solid #171B1A;
+   border-right: 59px solid transparent;
+   z-index: 10;
+ }

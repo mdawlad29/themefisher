@@ -12,7 +12,7 @@ import { Col, Row } from "antd";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen text-white relative">
-      <div className="bg-[#171B1A] absolute md:w-[75%] w-[90%] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-[0_0px_1px_0_rgba(255,255,255,0.7)]">
+      <div className="bg-[#171B1A] md:absolute md:w-[75%] w-[90%] md:top-1/2 md:left-1/2 transform md:-translate-x-1/2 md:-translate-y-1/2 shadow-[0_0px_1px_0_rgba(255,255,255,0.7)] shadow-[0px_0px_10px_0px_#ffffff38] z-[99999] mx-auto">
         <HeroSection />
 
         <Row>
@@ -22,7 +22,7 @@ export default function Home() {
             xs={24}
             md={24}
             lg={15}
-            className="space-y-[120px] md:pr-20 px-4"
+            className="md:space-y-[120px] space-y-[60px] md:pr-20 px-4"
           >
             <Resume />
             <Skills />
@@ -32,17 +32,16 @@ export default function Home() {
             <Contact />
           </Col>
         </Row>
-      </div>
 
-      {/* Home Section */}
-      <section className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[1000px]">
-        home
-      </section>
+        <h1 className="absolute lg:-top-[85px] top-[45px] lg:-left-[100px] left-[45px] !text-white lg:!text-[90px] !text-[50px] font-bold opacity-5 md:block hidden -z-[1]">
+          Home
+        </h1>
+      </div>
 
       {[...Array(6)]?.map((_: any, index: number) => (
         <section
           key={index}
-          className="bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover  min-h-[1300px]"
+          className="md:block hidden bg-[url('/assets/images/background-img.png')] bg-no-repeat bg-center bg-cover lg:min-h-[1500px] min-h-[1570px]"
         ></section>
       ))}
     </div>
