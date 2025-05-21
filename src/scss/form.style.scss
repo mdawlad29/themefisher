@@ -1,0 +1,42 @@
+.sof-form-field-wrapper {
+  .ant-form-item-label {
+    padding: 0 8px;
+
+    label {
+      font-size: 14px;
+      line-height: 20px;
+      color: #fff;
+      text-transform: capitalize;
+    }
+
+    .ant-form-item-required {
+      &::before {
+        display: none !important;
+      }
+      &::after {
+        display: flex;
+        margin-inline-end: 4px;
+        color: #fff;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: "*";
+      }
+    }
+  }
+
+  .ant-input {
+    color: #adadad;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #000000 !important;
+    border: none;
+    box-shadow: 0 0 0 0.1px #f5d597;
+
+    &:focus {
+      box-shadow: 0 0 0 1px #f89222;
+    }
+  }
+}

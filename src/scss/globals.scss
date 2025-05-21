@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: rgb(18,20,20);
+    --foreground: #fff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 3px;   
+  height: 3px;   
+}
+
+/* Scrollbar Thumb (The draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #F89222;
+  border-radius: 3px;
+}
+
+/* Scrollbar Track (Background area behind thumb) */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Optional: Hover effect on scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #e07b0e; 
+}
