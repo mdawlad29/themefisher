@@ -1,6 +1,6 @@
 # 🎨 Themefisher Developer Portfolio
 
-📁 **GitHub Repository:** [https://github.com/mdawlad29/themefisher-portfolio](https://github.com/mdawlad29/themefisher-portfolio)  
+📁 **GitHub Repository:** [https://github.com/mdawlad29/themefisher](https://github.com/mdawlad29/themefisher)  
 🔗 **Live Site:** [https://themefisher-sandy.vercel.app/](https://themefisher-sandy.vercel.app/)
 
 A modern and responsive developer portfolio built with **Next.js**, **Tailwind CSS**, and **Framer Motion**. This portfolio is designed to showcase your skills, projects, and personal branding in a clean, animated, and professional format.
