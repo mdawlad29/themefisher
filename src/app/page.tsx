@@ -33,7 +33,7 @@ export default function Home() {
           </Col>
         </Row>
 
-        <h1 className="absolute lg:-top-[85px] top-[45px] lg:-left-[100px] left-[45px] !text-white lg:!text-[90px] !text-[50px] font-bold opacity-5 md:block hidden -z-[1]">
+        <h1 className="absolute lg:-top-[85px] -top-[45px] lg:-left-[100px] -left-[60px] !text-white lg:!text-[90px] !text-[50px] font-bold opacity-5 lg:block block -z-[1]">
           Home
         </h1>
       </div>
