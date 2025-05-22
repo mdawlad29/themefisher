@@ -1,21 +1,14 @@
 import { Button, Col, Flex, Row, Typography } from "antd";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { BiSolidEdit } from "react-icons/bi";
-import {
-  FaFacebookF,
-  FaHome,
-  FaLinkedinIn,
-  FaPinterestP,
-  FaTwitter,
-  FaUser,
-} from "react-icons/fa";
+import { FaFacebookF, FaHome, FaLinkedinIn, FaPinterestP, FaTwitter, FaUser } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FiDownload } from "react-icons/fi";
 import { IoLogoInstagram } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import { motion } from "framer-motion";
 
 const { Text } = Typography;
 
@@ -34,9 +27,7 @@ const HeroSection = () => {
               daryl <span className="text-[#F89222]">smith</span>
             </Text>
 
-            <span className="md:text-[18px] text-[14px] text-[#C2C2C2]">
-              UI/UX designer
-            </span>
+            <span className="md:text-[18px] text-[14px] text-[#C2C2C2]">UI/UX designer</span>
           </div>
         </Col>
 
@@ -159,14 +150,12 @@ const HeroSection = () => {
               </p>
 
               <div className="text-sm md:text-base leading-relaxed text-[#C6C6C6] mb-10">
-                Prolific, full stack web developer with a passion for metrics
-                and beating former “best-yets.” Prototyped 25 new product
-                features per year for Flexor, Inc. Decreased rework by 22% and
-                costs by 15%. Consistently receive high user experience scores
-                for all web development projects, including a 55% increase for
-                Flexor, Inc. Passionate about building world class web
-                applications. One of my sites received a 2020 Webby for Best
-                Navigation and Structure.
+                Prolific, full stack web developer with a passion for metrics and beating former
+                “best-yets.” Prototyped 25 new product features per year for Flexor, Inc. Decreased
+                rework by 22% and costs by 15%. Consistently receive high user experience scores for
+                all web development projects, including a 55% increase for Flexor, Inc. Passionate
+                about building world class web applications. One of my sites received a 2020 Webby
+                for Best Navigation and Structure.
               </div>
 
               <motion.div
@@ -186,7 +175,7 @@ const HeroSection = () => {
             <div className="relative h-full lg:block hidden">
               <div className="shape-two bg-[#121414] h-[250px] w-[59px] flex items-center float-right mt-[250px] relative" />
 
-              <div className="absolute top-48 -right-[118px] z-30">
+              <div className="absolute top-[168px] -right-[115px] z-30">
                 <p className="rotate-[-270deg] text-[12px] whitespace-nowrap text-[#A5A5A5] lg:block hidsden">
                   © design by themefisher developed by gethugothemes
                 </p>
